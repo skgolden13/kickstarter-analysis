@@ -22,9 +22,12 @@ All sheets referenced are located in https://github.com/skgolden13/kickstarter-a
 A new column in the "Kickstarter" sheet titled "Year" was created using the formula =YEAR(S2). Column S contains the date a project was created.
 This formula was copied down for the entire set of data. A pivot table and pivot chart was created using this data and is located in the sheet "Theater Outcomes by Launch Date." This pivot filters by parent category and year. The parent category filter is set to "theater" while the year filter is set to all years. The columns in the pivot are the total number of successful, failed, and canceled theater projects along with a grand total. The rows are the twelve months of the year.
 
+An image of this pivot table can be found at https://github.com/skgolden13/kickstarter-analysis/blob/main/Pivot_Table.PNG .
+
 ### Analysis of Outcomes Based on Goals
-A new sheet titled "Outcomes Based on Goals" was created to analyze the outcome of plays based on their fundraising goals. The COUNTIFS function was used to determine the total number of successful, failed, and canceled plays within a specific fundraising goal range. These values were then used to calculate a percentage of successful, failed, or canceled plays and charted on a line chart. 
-An example of the COUNTIF function and SUM function for the percentage calculation can be found at 
+A new sheet titled "Outcomes Based on Goals" was created to analyze the outcome of plays based on their fundraising goals. The COUNTIFS function was used to determine the total number of successful, failed, and canceled plays within a specific fundraising goal range. These values were then used to calculate a percentage of successful, failed, or canceled plays and charted on a line chart.
+
+An example of the COUNTIF function and SUM function for the percentage calculation can be found at https://github.com/skgolden13/kickstarter-analysis/blob/main/COUNTIFS_SUM_Formulas.PNG .
 
 ### Challenges and Difficulties Encountered
 Potential challenges that could be encountered include use of the COUNTIFS function. Understanding the syntax for the conditions in terms of requiring quotes and the logic statements may not be intuitive. These errors may also be difficult to find when troubleshooting the formula. Generating a pivot table and chart that displays the correct information and the appropriate filters may also be difficult to organize.
